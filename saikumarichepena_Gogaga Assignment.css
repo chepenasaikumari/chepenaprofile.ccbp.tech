@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-image: url("https://media.istockphoto.com/id/1497731768/photo/iconic-wooden-footpath-in-nature-winding-toward-snow-covered-mountains.jpg?s=612x612&w=0&k=20&c=k4MddaA3LcYoim660x8ytXGxAnETcUKjzxMdidGGbvw=");
+    background-size: cover;
+    display: flex;
+
+}
+
+.form-control {}
+
+.button-package {
+    background-color: black;
+    border-radius: 10px;
+    color: #ffffff;
+    width: 100px;
+    height: 35px;
+
+}
+
+.color skyblue {
+    color: skyblue;
+}
+
+.line {
+    color: skyblue;
+    font-weight: bold;
+    width: 2000px;
+    height: 2px;
+    background-color: skyblue;
+}
+
+.custom-width {
+    width: 10px;
+    margin: 20px;
+    /* You can set the desired width here */
+}
+
+.form-control {
+    width: 30px;
+}
+
+.heading {
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.paragraph {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.items {
+    justify-content: space-between;
+}
+
+.button-tours {
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: black;
+    width: 100px;
+    height: 35px;
+
+}
+
+.row {
+    justify-content: space-between;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    align-items: center;
+}
+
+.custom-select {
+    width: 100px;
+    /* Set your desired width */
+    height: 40px;
+    /* Set your desired height */
+}
+
+.moon {
+    width: 20px;
+    height: 20px;
+}
+
+.night {
+    width: 20px;
+}
+
+.btn-block {
+    width: 40px;
+    height: 40px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.first {
+    border-radius: 200px;
+    border-color: black;
+    background-color: #ffffff;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.container {
+    justify-content: space-between;
+}
+
+.search-form .card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-form .btn-group-toggle .btn {
+    width: 50%;
+    text-align: center;
+}
+
+.search-form .form-row .col {
+    padding-right: 10px;
+}
+
+.search-form .form-row .col:last-child {
+    padding-right: 0;
+}
+
+.search-form .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.search-form .btn-secondary {
+    margin-right: 5px;
+    border-radius: 20px;
+}
+
+.search-form .form-row .input-group-text {
+    background-color: #f8f9fa;
+    border: none;
+}
